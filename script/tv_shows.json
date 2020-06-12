@@ -1,0 +1,68 @@
+var tvShows = `[
+    {
+        "title": "Altered Carbon",
+        "description": "More than 300 years in the future, society has been transformed by new technology, leading to human bodies being interchangeable and death no longer being permanent. Takeshi Kovacs is the only surviving soldier of a group of elite interstellar warriors who were defeated in an uprising against the new world order.",
+        "image": "media/tv-show_posters/altered_carbon.jpg",
+        "likes": 201
+    }, {
+        "title": "Arrested Development",
+        "description": "The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud. Now Michael, the only sane one in the family, must maintain peace at home.",
+        "image": "media/tv-show_posters/arrested_development.jpg",
+        "likes": 187
+    }, {
+        "title": "Black Mirror",
+        "description": "An anthology series that revolves around a group of people's personal lives and how technology manipulates their behaviour.",
+        "image": "media/tv-show_posters/black_mirror.jpg",
+        "likes": 192
+    }, {
+        "title": "BoJack Horseman",
+        "description": "A humanoid horse, BoJack Horseman - lost in a sea of self-loathing and booze - decides it's time for a comeback. Once the star of a '90s sitcom, in which he was the adoptive father of three orphaned kids. The show was the hottest thing around, then suddenly, was canceled. Now 18 years later, BoJack wants to regain his dignity. But Hollywood is vastly different from those days, and getting used to stuff like Twitter may take some time. This first animated series from Netflix - with plenty of references to sex, drugs and alcohol - is not for the little ones.",
+        "image": "media/tv-show_posters/bojack_horseman.jpg",
+        "likes": 199
+    }, {
+        "title": "Dark",
+        "description": "When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids. The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history -- whether they know it or not. The story includes supernatural elements that tie back to the same town in 1986. 'Dark' represents the first German original series produced for Netflix.",
+        "image": "media/tv-show_posters/dark.jpg",
+        "likes": 196
+    }, {
+        "title": "Doctor Who",
+        "description": "The deadliest alien species gather around an unknown planet that emits a mysterious message. The Doctor, along with Clara, tries to decipher that mysterious message.",
+        "image": "media/tv-show_posters/doctor_who.jfif",
+        "likes": 197
+    }, {
+        "title": "Game of Thrones",
+        "description": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.",
+        "image": "media/tv-show_posters/got.jpg",
+        "likes": 169
+    }, {
+        "title": "Mindhunter",
+        "description": "Catching a criminal often requires the authorities to get inside the villain's mind to figure out how he thinks. That's the job of FBI agents Holden Ford and Bill Tench. They attempt to understand and catch serial killers by studying their damaged psyches. Along the way, the agents pioneer the development of modern serial-killer profiling. The crime drama has a strong pedigree behind the camera, with Oscar-nominated director David Fincher and Oscar-winning actress Charlize Theron among the show's executive producers.",
+        "image": "media/tv-show_posters/mindhunter.jpg",
+        "likes": 195
+    }, {
+        "title": "Ozark",
+        "description": "Created by Bill Dubuque ('The Accountant,' 'The Judge'), this drama series stars Jason Bateman as Marty Byrde, a financial planner who relocates his family from Chicago to a summer resort community in the Ozarks. With wife Wendy and their two kids in tow, Marty is on the move after a money-laundering scheme goes wrong, forcing him to pay off a substantial debt to a Mexican drug lord in order to keep his family safe.",
+        "image": "media/tv-show_posters/ozark.jpg",
+        "likes": 194
+    }, {
+        "title": "Peaky Blinders",
+        "description": "A dangerous Tommy Shelby leads Peaky Blinders, a criminal gang based in Birmingham in 1919. Chief Inspector Chester Campbell decides to nab him and put an end to the activities of this gang.",
+        "image": "media/tv-show_posters/peaky_blinders.jpg",
+        "likes": 194
+    }, {
+        "title": "Stranger Things",
+        "description":"In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+        "image": "media/tv-show_posters/stranger_things.jpg",
+        "likes": 200
+    }, {
+        "title": "Unbelievable",
+        "description": "When a teen reports being raped, then recants her story, two female detectives follow evidence that could reveal the truth; based on a true story.",
+        "image": "media/tv-show_posters/unbelievable.jpg",
+        "likes": 186
+    }, {
+        "title": "When They See Us",
+        "description": "In 1989 a jogger was assaulted and raped in New York's Central Park, and five young people were subsequently charged with the crime. The quintet, labeled the Central Park Five, maintained its innocence and spent years fighting the convictions, hoping to be exonerated. This limited series spans a quarter of a century, from when the teens are first questioned about the incident in the spring of 1989, going through their exoneration in 2002 and ultimately the settlement reached with the city of New York in 2014.",
+        "image": "media/tv-show_posters/when_they_see_us.jpg",
+        "likes": 178
+    }
+]`

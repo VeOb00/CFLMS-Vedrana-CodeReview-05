@@ -1,0 +1,73 @@
+var movies = `[
+    {
+        "title": "A Quiet Place, Part II",
+        "description": "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+        "image": "media/movie_posters/a_quite_place.jfif",
+        "likes": 192
+    }, {
+        "title": "Artemis Fowl",
+        "description": "Artemis Fowl is a 12-year-old genius and descendant of a long line of criminal masterminds. He soon finds himself in an epic battle against a race of powerful underground fairies who may be behind his father's disappearance.",
+        "image": "media/movie_posters/artemis_fowl.jfif",
+        "likes": 146
+    }, {
+        "title": "Birds Of Prey",
+        "description": "It's open season on Harley Quinn when her explosive breakup with the Joker puts a big fat target on her back. Unprotected and on the run, Quinn faces the wrath of narcissistic crime boss Black Mask, his right-hand man, Victor Zsasz, and every other thug in the city.",
+        "image": "media/movie_posters/birds_of_prey.jpg",
+        "likes": 173
+    }, {
+        "title": "Black Widow",
+        "description": "At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative.",
+        "image": "media/movie_posters/black_widow.jfif",
+        "likes": 182
+    }, {
+        "title": "Bloodshot",
+        "description": "After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman, biotech killing machine - Bloodshot.",
+        "image": "media/movie_posters/bloodshot.jfif",
+        "likes": 184
+    }, {
+        "title": "Dune",
+        "description": "Paul Atreides leads nomadic tribes in a battle to control the desert planet Arrakis.",
+        "image": "media/movie_posters/dune.jfif",
+        "likes": 198
+    }, {
+        "title": "Emma",
+        "description": "Following the antics of a young woman, Emma Woodhouse, who lives in Georgian- and Regency-era England and occupies herself with matchmaking - in sometimes misguided, often meddlesome fashion- in the lives of her friends and family.",
+        "image": "media/movie_posters/emma.jfif",
+        "likes": 179
+    }, {
+        "title": "Onward",
+        "description": "Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father. Like any good adventure, their journey is filled with cryptic maps, impossible obstacles and unimaginable discoveries.",
+        "image": "media/movie_posters/en_avant.jfif",
+        "likes": 189
+    }, {
+        "title": "Mulan",
+        "description": "To save her ailing father from serving in the Imperial Army, a fearless young woman disguises herself as a man to battle northern invaders in China.",
+        "image": "media/movie_posters/mulan.jfif",
+        "likes": 178
+    }, {
+        "title": "No Time To Die - 007",
+        "description": "Recruited to rescue a kidnapped scientist, globe-trotting spy James Bond finds himself hot on the trail of a mysterious villain, who's armed with a dangerous new technology.",
+        "image": "media/movie_posters/no_time_to_die_007.jfif",
+        "likes": 194
+    }, {
+        "title": "Sonic the Hedgehog",
+        "description": "The world needed a hero -- it got a hedgehog. Powered with incredible speed, Sonic embraces his new home on Earth -- until he accidentally knocks out the power grid, sparking the attention of uncool evil genius Dr. Robotnik.",
+        "image": "media/movie_posters/sonic.jpg",
+        "likes": 194
+    }, {
+        "title": "Tenet",
+        "description":"Tenet is an upcoming spy film written and directed by Christopher Nolan. It stars John David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael Caine, and Kenneth Branagh.",
+        "image": "media/movie_posters/tenet.jfif",
+        "likes": 200
+    }, {
+        "title": "The New Mutants",
+        "description": "Magik, Wolfsbane and other teenage mutants try to come to grips with their superpowers while staying at a secret facility.",
+        "image": "media/movie_posters/the_new_mutants.jfif",
+        "likes": 186
+    }, {
+        "title": "Top Gun: Maverick",
+        "description": "Pete 'Maverick' Mitchell keeps pushing the envelope after years of service as one of the Navy's top aviators. He must soon confront the past while training a new squad of graduates for a dangerous mission that demands the ultimate sacrifice.",
+        "image": "media/movie_posters/top_gun.jfif",
+        "likes": 168
+    }
+]`
