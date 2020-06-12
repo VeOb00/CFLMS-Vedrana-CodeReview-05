@@ -1,0 +1,141 @@
+$header-footer: rgba(8, 14, 51, 1);
+$navigation: rgba(11, 20, 73, 1);
+$highlight: rgba(31, 56, 204, 1);
+$background: rgba(12, 12, 12, 1);
+$text: rgba(216, 216, 216, 1);
+$text2: rgba(114, 114, 114, 1);
+
+@import "navigation";
+@import "heart";
+
+/* Color Theme Swatches in RGBA */
+// .Copy-of-Blue-Royal-Shades-1-rgba { color: rgba(31, 56, 204, 1); }
+// .Copy-of-Blue-Royal-Shades-2-rgba { color: rgba(24, 45, 161, 1); }
+// .Copy-of-Blue-Royal-Shades-3-rgba { color: rgba(17, 29, 107, 1); }
+// .Copy-of-Blue-Royal-Shades-4-rgba { color: rgba(11, 20, 73, 1); }
+// .Copy-of-Blue-Royal-Shades-5-rgba { color: rgba(8, 14, 51, 1); }
+
+/* Color Theme Swatches in RGBA */
+.black-stone-concrete-1-rgba { color: rgba(216, 216, 216, 1); }
+.black-stone-concrete-2-rgba { color: rgba(114, 114, 114, 1); }
+.black-stone-concrete-3-rgba { color: rgba(63, 63, 63, 1); }
+.black-stone-concrete-4-rgba { color: rgba(38, 38, 38, 1); }
+.black-stone-concrete-5-rgba { color: rgba(12, 12, 12, 1); }
+
+* {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    color: $text;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: $header-footer;
+
+    h1 {
+        text-align: center; 
+        padding: 3%;
+    }
+}
+
+footer {
+    font-size: 80%;
+}
+
+
+main {
+    background-color: $background; 
+    padding-bottom: 10%;
+    padding: 0 1%;
+}
+
+.heading {
+    padding: 3% 1%;
+    display: flex; 
+    justify-content: flex-end;
+
+    h2 {
+        width: 40%;
+        text-align: center;
+    }
+
+    .sort {
+        width: 30%; 
+        text-align: right; 
+    }
+    
+    .sortbtn {
+        background-color: $background;
+        border: none;
+    }
+}
+
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    background-color: black;
+    margin: 1%;
+    margin-bottom: 3%;
+    width: 47%;
+    padding: 1%; 
+}
+
+.content > img {
+    background-color: $background;
+    width: 40%;
+    height: 100%;
+}
+
+.description {
+    width: 55%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-between;
+    align-content: space-between;
+
+    h3 {
+        margin-bottom: 10%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+.like {
+    display: flex; 
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+}
+
+.likeNr {
+    margin-right: 8%;
+    padding: 10px 5px;
+    text-align: right;
+    background-color: $text;
+    color: $background; 
+    border-radius: 5%;
+}
+
+.like img {
+    cursor: pointer;
+}
+
+.like  img:hover {
+    border-radius: 50%;
+    background-color: $highlight; 
+}
+
+img[alt] {
+    font-size: 80%;
+    color: $text2;
+}
