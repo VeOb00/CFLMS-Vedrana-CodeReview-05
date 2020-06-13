@@ -1,4 +1,6 @@
 
+// var items is parsed form .json files in their respective html pages 
+
 
 $(document).ready(function() {
     generateContent();
@@ -18,8 +20,6 @@ $(document).ready(function() {
 
 function generateContent() {
     for (let i = 0; i < items.length; i++) {
-        
-        
         document.getElementById("content").innerHTML += `
         <div class="content">
             <div class="poster">
