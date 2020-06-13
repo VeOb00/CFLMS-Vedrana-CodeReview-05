@@ -23,56 +23,6 @@ nav li {
 nav li a:hover {
   color: #8c031c; }
 
-.heart {
-  background-color: #8c031c;
-  display: inline-block;
-  height: 30px;
-  margin: 0 10px;
-  position: relative;
-  top: 0;
-  transform: rotate(-45deg);
-  width: 30px; }
-
-.heart:before,
-.heart:after {
-  content: "";
-  background-color: #8c031c;
-  border-radius: 50%;
-  height: 30px;
-  position: absolute;
-  width: 30px; }
-
-.heart:before {
-  top: -15px;
-  left: 0; }
-
-.heart:after {
-  left: 15px;
-  top: 0; }
-
-/* Color Theme Swatches in RGBA */
-.black-stone-concrete-1-rgba {
-  color: #d8d8d8; }
-
-.black-stone-concrete-2-rgba {
-  color: #727272; }
-
-.black-stone-concrete-3-rgba {
-  color: #3f3f3f; }
-
-.black-stone-concrete-4-rgba {
-  color: #262626; }
-
-.black-stone-concrete-5-rgba {
-  color: #0c0c0c; }
-
-/* Color Theme Swatches in RGBA */
-.Super-1-rgba {
-  color: #3f0105; }
-
-.Super-2-rgba {
-  color: #8c031c; }
-
 * {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -130,7 +80,7 @@ main {
   cursor: pointer;
   color: #8c031c; }
 
-section {
+.section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
