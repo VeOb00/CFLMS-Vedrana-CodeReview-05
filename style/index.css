@@ -51,7 +51,7 @@ footer h1 {
   font-size: 3vw; }
 
 main {
-  background-color: #0c0c0c;
+  background-color: #0f0f0f;
   padding-bottom: 10%;
   padding: 0 1% 5%; }
 
@@ -72,7 +72,7 @@ main {
   text-align: right; }
 
 .sortbtn {
-  background-color: #0c0c0c;
+  background-color: #0f0f0f;
   border: none;
   font-size: 1.5em; }
 
@@ -94,7 +94,7 @@ main {
   padding: 1%; }
 
 .poster {
-  background-color: #0c0c0c;
+  background-color: #0f0f0f;
   width: 40%;
   align-self: flex-start; }
 
@@ -128,7 +128,7 @@ main {
   padding: 10px 8px;
   text-align: right;
   background-color: #d8d8d8;
-  color: #0c0c0c;
+  color: #0f0f0f;
   border-radius: 5%; }
 
 .like img {
